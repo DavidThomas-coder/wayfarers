@@ -1,0 +1,1 @@
+Wayfarers is a game where you and your friends form an intrepid band of adventurers and travel across the land of Corloss!  Create your character, set your step goals, work together and explore the land!
