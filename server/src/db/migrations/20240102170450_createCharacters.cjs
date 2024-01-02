@@ -8,8 +8,8 @@
 exports.up = async (knex) => {
     return knex.schema.createTable("characters", (table) => {
         table.bigIncrements("id")
-        table.string("name")
-        table.string("class")
+        table.string("name").notNullable()
+        table.string("class").notNullable()
         table.integer("level")
         table.integer("experience")
         table.integer("stepCount")
